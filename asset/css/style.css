@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: #fff;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.skills {
+    max-width: 1200px; /* Batas maksimal lebar pada desktop */
+    margin: auto; /* Menempatkan section di tengah */
+    padding: 30px;
+}
+
+.skill-list {
+    display: inline-block;
+    width: 100%; /* Menampilkan tiga skill per baris */
+    margin: 1.5%;
+    vertical-align: top;
+}
+
+.skill {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-images {
+    display: flex;
+    justify-content: center; /* Menempatkan gambar di tengah */
+    gap: 15px; /* Jarak antar gambar */
+}
+
+.skill-images img {
+    width: 10%; /* Gambar lebih kecil */
+    object-fit: cover;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .skill-images img {
+        width: 20%; /* Gambar lebih besar di layar kecil */
+    }
+}
+/* Untuk tampilan mobile, skills ditampilkan satu per baris */
+@media (max-width: 768px) {
+    .skill-list {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+p{
+    max-width: 100%;
+
+}
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+.list {
+    max-width: 1200px; /* Batas maksimal lebar pada desktop */
+    margin: auto; /* Menempatkan section di tengah */
+    padding: 10px;
+    
+}
+.footer {
+    position: fixed;
+    margin-top: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }

@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .card {
+      width: 100%;
+      margin-bottom: 50px;
+  }
+}
+.list {
+  max-width: 1200px; /* Batas maksimal lebar pada desktop */
+  margin: auto; /* Menempatkan section di tengah */
+  padding: 30px;
+  
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
