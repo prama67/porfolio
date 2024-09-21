@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="asset/css/imgstyle.css">
     <link rel="stylesheet" href="asset/css/style.css">
 
+    <!-- asset aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,7 +22,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">RamaAcyuta</a>
+          <a class="navbar-brand " style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>/RamaAcyuta</strong></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,7 +32,7 @@
                 <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"><i class="fa-regular fa-user"></i> About</a>
+                <a class="nav-link" href="about.html"><i class="fa-solid fa-user"></i> About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="skills.html"><i class="fa-solid fa-gear"></i> Skills</a>
@@ -58,6 +60,8 @@
             <img src="asset/img/2.png" alt="" width="130px">
           </center>
 
+          <!-- card about -->
+          <div data-aos="zoom-in" data-aos-delay="100"  data-aos-duration="1000">
             <div class="list">
             <div class="card" style="max-width: 100%; margin: auto; border-radius: 16px;">
               <div class="card-body">
@@ -67,6 +71,8 @@
               </div>
             </div>
           </div>
+          </div>
+
 
           <center>
             <img src="asset/img/1.png" alt="" width="130px">
@@ -75,6 +81,7 @@
         <!-- Skills Section -->
         <section class="skills">
 
+          <div data-aos="zoom-in" data-aos-delay="500"  data-aos-duration="1000">
             <div class="skill-list">
               <div class="skill">
                 <div class="skill-images">
@@ -87,6 +94,7 @@
                   <p class="card-text">Skills are a person's ability or expertise to do something well, I utilize these skills in expanding my knowledge in the field I am working on this time. for more details, click the “detail skills” button.</p>
                   <a href="skills.html"><button class="btn btn-primary" type="button">Detail Skills <i class="fa-solid fa-arrow-right"></i></button></a>
               </div>
+            </div>
 
           <!-- </div><div class="skill-list">
             <div class="skill">
@@ -122,6 +130,13 @@
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 
   </body>
 </html>
